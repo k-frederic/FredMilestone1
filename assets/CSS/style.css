@@ -1,18 +1,14 @@
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
-	margin: 0;
-	background-color: whitesmoke;
+    margin: 0em;
     height: 100%;
 }
-#bg {
-    background-image:url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') ;
-    height: 80%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
+
+header {
+    background-color: rgb(207, 179, 233);
+
 }
+
 
 .text-uppercase {
     text-transform: uppercase;
@@ -22,13 +18,26 @@ body {
     text-align: center;
 }
 .text-white {
-    color: #fff;
+    color: #b71ccc;
 }
+
+
+#bg {
+    background-image:url("/assets/images/Violette.jpg");
+    height: 75%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-bottom: 0;
+}
+
 
 #worship-box {
 height: 27em;
 width: 27em;
-background-color: burlywood;
+background-image: url("/assets/images/beautiful-clouds.jpg");
 float: left;
 position: relative;
 left: 290px;
@@ -36,14 +45,18 @@ top: 30px;
 border-radius: 20%;
 rotate: -50deg;
 
-
 }
+
+#worship-box:hover {
+    opacity: 0.5;
+}
+
 
 #therapy-box {
 
     height: 27em;
     width: 27em;
-    background-color: rgb(185, 168, 145);
+    background-image: url("/assets/images/beautiful-clouds.jpg");
     float: right;
     position: relative;
     right: 290px;
@@ -52,6 +65,10 @@ rotate: -50deg;
     border-radius: 20%;
     rotate: 50deg;
    
+}
+
+#therapy-box:hover {
+    opacity: 0.5;
 }
 
 .about-us-box {
@@ -74,3 +91,20 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+
+
+   
+
+#f-bg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(207, 179, 233);
+    text-align: center;
+    height: 13%;
+    
+}
+ footer div {
+    color: #fff;
+ }
